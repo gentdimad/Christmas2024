@@ -1,42 +1,224 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.card {
-  padding: 2em;
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
-.read-the-docs {
-  color: #888;
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+#main{
+  background-image: url('./assets/background.jpg');
+  object-fit: cover;
+  height:100%;
+  width:100%;
+}
+
+.division{
+  position:relative;
+  display:block;
+  height:1rem;
+  width:100%;
+  margin-bottom:5rem;
+}
+
+.header-box{
+  display: flex;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom:-2rem;
+}
+
+.header-text-1{
+  position:relative;
+  color:white;
+  font-size:4rem;
+}
+
+.header-text{
+  position:relative;
+  color:white;
+  font-size:4rem;
+  margin-left:1rem;
+}
+
+.content-box{
+  position:relative;
+  margin-left:3rem;
+  margin-right:3rem;
+  margin-top:-1rem;
+}
+
+.content-text{
+  position:relative;
+  margin-top:3rem;
+  color:white;
+  font-size:1.2rem;
+}
+
+#img-top{
+  position:relative;  
+  width:45rem;
+  margin-top:5rem;
+  margin-left: 3rem;
+}
+
+#img-1{
+  position:relative;  
+  width:45rem;
+  margin-top:5rem;
+  margin-left:-10rem;
+}
+
+#img-2{
+  position:relative;  
+  width:45rem;
+  margin-top:5rem;
+}
+
+#img-3{
+  position:relative;  
+  width:45rem;
+  margin-top:5rem;
+  margin-left: 3rem;
+}
+
+#img-4{
+  background-image: url('./assets/part-4.jpeg');
+  object-fit: cover;
+  position:relative;  
+  width: 30rem;
+  height:25rem;
+  margin-top:5rem;
+  margin-left:-2rem;
+  border-radius:4rem;
+}
+
+#img-5{
+  position:relative;  
+  width:45rem;
+  margin-top:5rem;
+}
+
+.image{
+  border-radius:4rem;
+  height:25rem;
+}
+
+.center-image{
+  height:25rem;
+}
+
+.image-4{
+  border-radius:4rem;
+  height:40rem;
+}
+
+.footer{
+  width:100%;
+  height:1rem;
+  margin-top:10rem;
 }
